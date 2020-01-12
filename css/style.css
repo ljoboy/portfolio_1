@@ -1,0 +1,379 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333333;
+    background-color: #f1f1f1;
+    font-family: Roboto, Verdana, serif ;
+    overflow-x: hidden;
+}
+
+h1, h2, h3{
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    z-index: 5;
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.navbar ul li:hover{
+    background-color: #009688;
+}
+
+li i{
+    padding-right: 4px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.slider{
+    width: 100%;
+    margin-top: 52px;
+}
+
+.slider img{
+    width: 100%;
+    height: 600px;
+}
+
+.slider .mot{
+    background-color: black;
+    color: #ffffff;
+    width: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 200px;
+    box-shadow: 0 4px 20px 0 rgba(255, 255, 255, 0.4);
+}
+
+.slider .mot:hover{
+    background-color: #009688;
+}
+
+.slider .fleche{
+    font-size: xx-large;
+    color: black;
+    padding: 16px;
+}
+
+.gauche{
+    margin-left: 40px;
+    left: 0;
+}
+
+.droite{
+    margin-right: 40px;
+    right: 0;
+}
+
+.slider button{
+    margin-bottom: 450px;
+    bottom: 0;
+    position: absolute;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    background-color: #009688;
+    color: #ffffff;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.4);
+    transition: all 1s;
+}
+
+.slider button:hover{
+    background-color: #7cccdc;
+    box-shadow: 8px 10px 20px 4px rgba(124, 204, 220, 0.4);
+}
+
+.famille{
+    margin-left: 2%;
+    width: 100%;
+}
+
+.carte{
+    margin: 1%;
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    border: solid 1px #7cccdc;
+    color: black;
+    background-color: white;
+    text-align: justify;
+    cursor: pointer;
+}
+
+.carte img{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.carte p{
+    margin: 0;
+    padding: 8px;
+}
+
+.carte:hover{
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.apropos{
+    background-image: url("../img/parallax1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+    width: 100%;
+    text-align: justify;
+}
+
+.description{
+    background-color: #f1f1f1;
+    width: 60%;
+    padding: 2.5%;
+    margin-left: 15%;
+}
+
+.etude{
+    margin-left: 15%;
+    background-color: #e1e1e1;
+    width: 60%;
+    padding: 2.5%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: #009688;
+    color: white;
+}
+
+.amis{
+    background-color: #e1e1e1;
+    padding: 20px;
+}
+
+.ami{
+    margin-left: 4%;
+    display: inline-block;
+    width: 20%;
+}
+
+.ami img{
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.ami p{
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+}
+
+.ami:hover{
+    transition: all 1s;
+    cursor: pointer;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.gallerie{
+    padding: 20px;
+}
+
+.gal div{
+    position: relative;
+    padding: 8px;
+    width: 22%;
+    float: left;
+    cursor: pointer;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+
+.gal div:hover{
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.gal div img{
+    height: 200px;
+    width: 100%;
+}
+
+.gal div p{
+    background-color: black;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px 16px;
+}
+
+.zoombox{
+    display: none;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    padding-top: 150px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.zoombox img{
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    max-height: 500px;
+}
+
+.zoombox #fermer{
+
+    top: 0;
+    right: 0;
+
+}
+
+.zoombox #fermer:hover{
+    background-color: crimson;
+    color: #000;
+}
+
+.zoombox span{
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 20px;
+    font-size: xx-large;
+    color: #ffffff;
+    position: absolute;
+}
+
+#p{
+    position: absolute;
+    left: 10%;
+    bottom: 55%;
+}
+
+#s{
+    position: absolute;
+    right: 10%;
+    bottom: 55%;
+}
+
+#s:hover, #p:hover{
+    background-color: #7cccdc;
+}
+
+.contact{
+    background-color: #f0f0f0;
+    padding: 64px 0;
+    width: 100%;
+}
+
+.envoyer{
+    padding: 20px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+    background-color: #ffffff;
+    float: right;
+    width: 50%;
+    margin: 5%;
+}
+
+.envoyer label, input{
+    display: block;
+    width: 100%;
+    margin: 8px;
+    font-size: 22px;
+}
+
+.adresse{
+    float: left;
+    margin: 5%;
+    font-size: large;
+}
+
+input{
+    border: none;
+    border-bottom: solid 1px #a8a8a8;
+}
+
+.envoyer button{
+    margin-top: 20px;
+    border: none;
+    padding: 20px 40px;
+    background-color: black;
+    color: white;
+    float: right;
+}
+
+.envoyer button:hover{
+    box-shadow: 4px 8px 20px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+footer{
+    color: white;
+    padding: 60px;
+    width: 100%;
+    text-align: center;
+    margin-top: 500px;
+    background-color: #009688;
+}
+
+footer ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+footer ul li:hover{
+    color: #7cccdc;
+    text-shadow:  2px 1px #000000;
+}
+
+hr{
+    margin: 0 5%;
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+}

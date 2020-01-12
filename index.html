@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Accueil</title>
+    <link rel="stylesheet" href="css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body onload="slider(0)">
+<div class="navbar">
+    <ul>
+        <li><a href="#"><i class="fa fa-home"></i> Accueil</a></li>
+        <li><a href="#famille"><i class="fa fa-heartbeat"></i> Ma famille</a></li>
+        <li><a href="#apropos"><i class="fa fa-user"></i> A propos</a></li>
+        <li><a href="#amis"><i class="fa fa-users"></i> Mes ami(e)s</a></li>
+        <li><a href="#gallerie"><i class="fa fa-photo"></i> Gallerie</a></li>
+        <li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>
+    </ul>
+</div>
+<div class="slider">
+    <img src="img/slide1.jpg" alt="Celine" id="img"/>
+    <p class="mot" id="mot">Juste un petit mot</p>
+    <div class="fleche">
+        <button id="prec" class="gauche">Prec.</button>
+        <button id="suiv" class="droite">Suiv.</button>
+    </div>
+</div>
+
+<!-- Famille -->
+<div class="famille" id="famille">
+    <h1>Ma famille</h1>
+    <div class="carte">
+        <img src="img/famille/avatar1.png" alt="papa">
+        <p>
+            <b>Voici mon père :</b> <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eum labore provident quasi repellat suscipit ut
+            vero? Culpa nobis ratione temporibus veniam? Debitis dolores enim omnis reprehenderit sed similique velit.
+        </p>
+    </div>
+    <div class="carte">
+        <img src="img/famille/avatar6.png" alt="maman">
+        <p>
+            <b>Voici ma mère :</b> <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eum labore provident quasi repellat suscipit ut
+            vero? Culpa nobis ratione temporibus veniam? Debitis dolores enim omnis reprehenderit sed similique velit.
+        </p>
+    </div>
+    <div class="carte">
+        <img src="img/famille/avatar5.png" alt="moi">
+        <p>
+            <b>Me voici :</b> <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eum labore provident quasi repellat suscipit ut
+            vero? Culpa nobis ratione temporibus veniam? Debitis dolores enim omnis reprehenderit sed similique velit.
+        </p>
+    </div>
+    <div class="carte">
+        <img src="img/famille/avatar2.png" alt="maman">
+        <p>
+            <b>Voici ma petite soeur :</b> <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eum labore provident quasi repellat suscipit ut
+            vero? Culpa nobis ratione temporibus veniam? Debitis dolores enim omnis reprehenderit sed similique velit.
+        </p>
+    </div>
+    <div class="carte">
+        <img src="img/famille/avatar3.png" alt="moi">
+        <p>
+            <b>Mon petit frère :</b> <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eum labore provident quasi repellat suscipit ut
+            vero? Culpa nobis ratione temporibus veniam? Debitis dolores enim omnis reprehenderit sed similique velit.
+        </p>
+    </div>
+</div>
+<!-- Famille -->
+
+<!-- A propos de moi -->
+<div class="apropos" id="apropos">
+    <h1 style="color: #009688;">A propos de moi : </h1>
+    <div class="description">
+        <h2>Description : </h2>
+        Je m'appelle <b>Celine</b> <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, fuga, vel! Alias at consequatur delectus
+        exercitationem fugit inventore itaque iure nam necessitatibus, perferendis quae reprehenderit ut! Aut dignissimos laboriosam minus?
+    </div>
+    <div class="etude">
+        <h2>Etude faites :</h2>
+        <table>
+            <tr>
+                <th>Année</th>
+                <th>Diplome obtenu</th>
+                <th>Pourcentage (%)</th>
+            </tr>
+            <tr>
+                <td>2010</td>
+                <td>Certificat d'étude primaire </td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>2017</td>
+                <td>Diplome d'Etat</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>2019</td>
+                <td>Encours</td>
+                <td>--</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- A propos de moi -->
+
+<!-- Mes ami(e)s -->
+<div class="amis" id="amis">
+    <h1>Mes ami(e)s</h1>
+    <div class="ami">
+        <img src="img/amis/avatar2.png" alt=""/>
+        <p>Mon meilleur pote</p>
+    </div>
+    <div class="ami">
+        <img src="img/amis/avatar3.png" alt=""/>
+        <p>Mon deuxieme meilleur pote</p>
+    </div>
+    <div class="ami">
+        <img src="img/amis/avatar5.png" alt=""/>
+        <p>Ma meilleure amie</p>
+    </div>
+    <div class="ami">
+        <img src="img/amis/avatar6.png" alt=""/>
+        <p>Ma meilleure copine</p>
+    </div>
+</div>
+<!-- Mes ami(e)s -->
+
+<!-- Gallerie -->
+<div class="gallerie" id="gallerie">
+    <h1>Gallerie</h1>
+    <div class="gal" id="gal">
+        <div>
+            <img src="img/gallerie/app.jpg" alt="">
+            <p>Application 1</p>
+        </div>
+        <div>
+            <img src="img/gallerie/app2.jpg" alt="">
+            <p>Application 2</p>
+        </div>
+        <div>
+            <img src="img/gallerie/app4.jpg" alt="">
+            <p>Application 4</p>
+        </div>
+        <div>
+            <img src="img/gallerie/architect.jpg" alt="">
+            <p>Architecture</p>
+        </div>
+        <div>
+            <img src="img/gallerie/app5.jpg" alt="">
+            <p>Application 5</p>
+        </div>
+        <div>
+            <img src="img/gallerie/atrium.jpg" alt="">
+            <p>Atrium</p>
+        </div>
+        <div>
+            <img src="img/gallerie/beach3.jpg" alt="">
+            <p>Beach</p>
+        </div>
+        <div>
+            <img src="img/gallerie/bedroom.jpg" alt="">
+            <p>Bed room</p>
+        </div>
+    </div>
+</div>
+<div id="zoombox" class="zoombox">
+    <span id="fermer">x</span>
+    <img id="zImg" />
+    <span id="p"><</span>
+    <span id="s">></span>
+</div>
+<!-- Gallerie -->
+<hr>
+<!--  Contact -->
+<div class="contact" id="contact">
+    <h1>Contact :</h1>
+    <form class="envoyer">
+        <label for="nom">Nom :</label>
+        <input id="nom" type="text">
+        <label for="email">E-mail :</label>
+        <input id="email" type="email">
+        <label for="msg">Message</label>
+        <input id="msg" type="text">
+        <button type="submit">Envoyer</button>
+    </form>
+    <div class="adresse">
+        <p>
+            <i class="fa fa-map-signs"></i> Adresse : xxxx,x xxx xxxx
+        </p>
+        <p>
+            <i class="fa fa-envelope"></i> Email : <a href="mailto:">celine@gmail.com</a>
+        </p>
+        <p>
+            <i class="fa fa-phone-square"></i> Telephone : <a href="tel:+2439912345678">+2439912345678</a>
+        </p>
+    </div>
+</div>
+<!--  Contact -->
+
+<footer>
+    Copyright Celine 2019 Tous droits reserves
+    <ul>
+        <li><a href="#"><i class="fa fa-google-plus"></i> Google plus</a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
+        <li><a href="#"><i class="fa fa-facebook-official"></i> Facebook</a></li>
+        <li><a href="#"><i class="fa fa-whatsapp"></i> Whatsapp</a></li>
+        <li><a href="#"><i class="fa fa-firefox"></i> www.celine.com</a></li>
+    </ul>
+</footer>
+<script src="js/script.js"></script>
+<script src="js/slider.js"></script>
+</body>
+</html>
